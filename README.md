@@ -26,14 +26,14 @@
 * Arquitechture Lambda & Kappa: The main difference is the flow of data processing involved. Lambda has an architecture consisting of the batch layer, the speed layer, the serving layer, unlike kappa is composed of the speed layer and the serving layer
 
 ### GitHub Commands
-* #### git init: Inicializa el repositorio.
+* #### git init: Initialize the repository.
 ```javascript
 Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
 $ git init
 Reinitialized existing Git repository in C:/Users/Usuario/Desktop/Hola/.git/
 }
 ```
-* #### git status: Muestra archivos creados, modificados del repositorio.
+* #### git status: Shows files created, modified from the repository.
 ```javascript
 Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
 $ nano bigdata.txt
@@ -48,5 +48,135 @@ Untracked files:
         bigdata.txt
 
 nothing added to commit but untracked files present (use "git add" to track)
+}
+```
+* #### git add: Add the file to the staging area.
+```javascript
+Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
+$ git add bigdata.txt
+warning: LF will be replaced by CRLF in bigdata.txt.
+The file will have its original line endings in your working directory
+}
+```
+* #### git commit - m: Record the changes and add them to the repository.
+```javascript
+Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
+$ git commit
+[master b77348c] First project
+ 1 file changed, 2 insertions(+)
+ create mode 100644 bigdata.txt
+}
+```
+
+* #### git log: Show the commits we have made in our repository.
+```javascript
+Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
+$ git log
+commit b77348c433f7a5fae9e5cdd591e22870544f4549 (HEAD -> master)
+Author: Jesus Cua <jesuscua05@gmail.com>
+Date:   Thu Jan 30 21:39:05 2020 -0600
+
+    First project
+
+}
+```
+
+* #### git rm: Remove files from the staging area.
+```javascript
+Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
+$ git rm bigdata.txt
+rm 'bigdata.txt'
+Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    bigdata.txt
+
+}
+```
+
+* #### git mv: It allows us to rename a file.
+```javascript
+Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
+$ git mv Pagina1.html index.html
+
+Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    bigdata.txt
+        renamed:    Pagina1.html -> index.html
+}
+```
+
+* #### git diff: Shows the changes that have been made within the files.
+```javascript
+Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
+$ git diff
+diff --git a/index.html b/index.html
+index deeaa16..79bc175 100644
+--- a/index.html
++++ b/index.html
+@@ -4,7 +4,7 @@
+
+     Bienvenidos al curso HTML
+ Hola mundo
+-
++First project
+ </body>
+
+ </html>
+
+}
+```
+
+* #### git --amend: We can modify the most recent confirmation and even combine changes.
+```javascript
+
+}
+```
+
+* #### git reset: Remove commits.
+```javascript
+Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
+$ git reset index.html
+Unstaged changes after reset:
+M       index.html
+
+Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+}
+```
+* #### git checkout: Reverse the changes of the files, allow travel to different commits.
+```javascript
+Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
+$ git checkout
+M       index.html
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
+$ git checkout index.html
+Updated 1 path from the index
+
 }
 ```
