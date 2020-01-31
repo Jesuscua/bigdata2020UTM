@@ -26,6 +26,9 @@
 * Arquitechture Lambda & Kappa: The main difference is the flow of data processing involved. Lambda has an architecture consisting of the batch layer, the speed layer, the serving layer, unlike kappa is composed of the speed layer and the serving layer
 
 ### GitHub Commands
+```javascript
 Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
 $ git init
 Reinitialized existing Git repository in C:/Users/Usuario/Desktop/Hola/.git/
+}
+```
