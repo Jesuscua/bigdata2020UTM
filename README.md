@@ -1,7 +1,7 @@
 # bigdata2020UTM
 * Big Data: It is the storage and processing of large, growing and bulky data sets that a processing software can not manage.
-* Item 2 Open data and private data: Open data are those data that we can find publicly and can be used to analyze patterns, trends. The private ones are those that are confidential since it is information related to a person, a company that must have some privacy.
-* Item 3 Structured and unstructured data: Structured data are those that have a length and format, are those that can be found in a database, the unstructured are those that do not fit the traditional structure of rows and columns (videos, archives of Audio).
+* Open data and private data: Open data are those data that we can find publicly and can be used to analyze patterns, trends. The private ones are those that are confidential since it is information related to a person, a company that must have some privacy.
+*Structured and unstructured data: Structured data are those that have a length and format, are those that can be found in a database, the unstructured are those that do not fit the traditional structure of rows and columns (videos, archives of Audio).
 * Item 4 Stored data and moving data: Stored data are those that are structured, are used for the analysis and generation of information. Data in motion are those that are being transmitted on a network, and may suffer alterations.
 * Item 5 Data analysis: It is the process of cleaning, transforming and modeling data to obtain useful information.
 * Item 6 Impact of data analysis: Currently organizations and companies base their decision-making on the analysis of previous data, to perform business and marketing strategies.
