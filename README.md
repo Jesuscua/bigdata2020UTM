@@ -6,10 +6,10 @@
 
 * Big Data: It is the storage and processing of large, growing and bulky data sets that a processing software can not manage.
 * Open data and private data: Open data are those data that we can find publicly and can be used to analyze patterns, trends. The private ones are those that are confidential since it is information related to a person, a company that must have some privacy.
-*Structured and unstructured data: Structured data are those that have a length and format, are those that can be found in a database, the unstructured are those that do not fit the traditional structure of rows and columns (videos, archives of Audio).
-*Stored data and moving data: Stored data are those that are structured, are used for the analysis and generation of information. Data in motion are those that are being transmitted on a network, and may suffer alterations.
-*Data analysis: It is the process of cleaning, transforming and modeling data to obtain useful information.
-*Impact of data analysis: Currently organizations and companies base their decision-making on the analysis of previous data, to perform business and marketing strategies.
+* Structured and unstructured data: Structured data are those that have a length and format, are those that can be found in a database, the unstructured are those that do not fit the traditional structure of rows and columns (videos, archives of Audio).
+* Stored data and moving data: Stored data are those that are structured, are used for the analysis and generation of information. Data in motion are those that are being transmitted on a network, and may suffer alterations.
+* Data analysis: It is the process of cleaning, transforming and modeling data to obtain useful information.
+* Impact of data analysis: Currently organizations and companies base their decision-making on the analysis of previous data, to perform business and marketing strategies.
 * Types of data analysis:
   * 1- Text analysis: It is to do data mining and decipher patterns.
   * 2- Statistical analysis: It is the collection, analysis, interpretation, presentation and modeling of data; There are two descriptive types that analyze complete and numerical and inferential data that can find different conclusions from the same data.
