@@ -1,4 +1,9 @@
 # bigdata2020UTM
+
+## Big data class
+
+### Syllabus contents
+
 * Big Data: It is the storage and processing of large, growing and bulky data sets that a processing software can not manage.
 * Open data and private data: Open data are those data that we can find publicly and can be used to analyze patterns, trends. The private ones are those that are confidential since it is information related to a person, a company that must have some privacy.
 *Structured and unstructured data: Structured data are those that have a length and format, are those that can be found in a database, the unstructured are those that do not fit the traditional structure of rows and columns (videos, archives of Audio).
@@ -12,8 +17,12 @@
   * 4- Predictive analysis: Shows what is likely to happen through the use of previous data.
   * 5- Prescriptive analysis: Combines all types of analysis to determine a decision.
 
+### Other topics
+
 * Docker containers: It is an open source project that automates the deployment of applications within containers.
 * MapReduce: It is a framework that provides a parallel and distributed data processing system.
 * Hadoop HDFS: Library to make distributed computing for processing large amounts of data. HDFS is the Hadoop file system:
 * Apache Spark: It is a programming environment, it works in memory which provides faster processing speed.
 * Arquitechture Lambda & Kappa: The main difference is the flow of data processing involved. Lambda has an architecture consisting of the batch layer, the speed layer, the serving layer, unlike kappa is composed of the speed layer and the serving layer
+
+### GitHub Commands
