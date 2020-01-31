@@ -138,9 +138,14 @@ index deeaa16..79bc175 100644
 }
 ```
 
-* #### git --amend: We can modify the most recent confirmation and even combine changes.
+* #### git commit --amend: We can modify the most recent confirmation and even combine changes.
 ```javascript
-
+Usuario@Jesus MINGW64 ~/Desktop (master)
+$ git commit --amend
+[master 2bbd870] hoala
+ Date: Fri Jan 31 13:03:20 2020 -0600
+ 1 file changed, 1 insertion(+)
+ create mode 100644 index.html
 }
 ```
 
