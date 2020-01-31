@@ -26,9 +26,27 @@
 * Arquitechture Lambda & Kappa: The main difference is the flow of data processing involved. Lambda has an architecture consisting of the batch layer, the speed layer, the serving layer, unlike kappa is composed of the speed layer and the serving layer
 
 ### GitHub Commands
+* #### git init: Inicializa el repositorio.
 ```javascript
 Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
 $ git init
 Reinitialized existing Git repository in C:/Users/Usuario/Desktop/Hola/.git/
+}
+```
+* #### git status: Muestra archivos creados, modificados del repositorio.
+```javascript
+Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
+$ nano bigdata.txt
+
+Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bigdata.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
 }
 ```
